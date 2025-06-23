@@ -38,3 +38,5 @@ class PhysicsBody:
         
         self.circle.x = self.position[0]
         self.circle.y = self.position[1]
+        self.circle.radius = self.size
+        self.circle.color = self.color
